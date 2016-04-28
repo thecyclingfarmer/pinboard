@@ -1,0 +1,208 @@
+// PMS colors
+// Greens
+$knowit-color-3292: #00594F;
+$knowit-color-3285: #009681;
+$knowit-color-7464: #A0D1CA;
+$knowit-color-9044: #C9E2E0;
+
+// Purples
+$knowit-color-668:  #614B79;
+$knowit-color-2094: #8E7FAE;
+$knowit-color-7444: #B6B8DC;
+$knowit-color-9380: #DEE1EC;
+
+// Blues
+$knowit-color-2380: #28334A;
+$knowit-color-2166: #57728B;
+$knowit-color-2155: #9EB5CB;
+$knowit-color-9400: #D6E1EC;
+
+// Yellows
+$knowit-color-7752: #CFB023;
+$knowit-color-2003: #F9E267;
+$knowit-color-0131: #F2F0A1;
+$knowit-color-9020: #EEEEC8;
+
+// Reds
+$knowit-color-7607: #C26E60;
+$knowit-color-487:  #EAA794;
+$knowit-color-489:  #ECC3B2;
+$knowit-color-9244: #F3E9E2;
+
+// Greys
+$knowit-color-gray-9: #75787B;
+$knowit-color-gray-5: #B1B3B3;
+$knowit-color-gray-2: #D0D0CE;
+$knowit-color-9080:   #E4E2DB;
+$knowit-color-9080-50: #F2F1ED;
+
+$knowit-color-black: #2D2926;
+$knowit-color-white: #FFFFFF;
+
+//---- COLOR BASE
+$knowit-green:#009682;
+$knowit-green-45:#8CCFC6;
+$knowit-green-27:rgba(0,150,130,0.27);
+
+//grayscale. Dark to light
+$knowit-grayscale-80:#333;
+$knowit-grayscale-50:#979797;
+$knowit-grayscale-45:#E6E6E6;
+$knowit-grayscale-40:#8c8c8c;
+$knowit-grayscale-20:#ececec;
+$knowit-grayscale-15:#f6f6f6;
+$knowit-grayscale-10:#FAFAFA;
+
+//semitransparent white
+$knowit-white-40:rgba(255,255,255,0.40);
+$knowit-white-60:rgba(255,255,255,0.60);
+
+//purple variations
+$knowit-purple-50:#9D93BB;
+
+//semitransparent black
+$knowit-black-82:rgba(0,0,0,0.82);
+$knowit-black-45:rgba(0,0,0,0.45);
+$knowit-black-40:rgba(0,0,0,0.40);
+
+//Knowit red variations
+$knowit-red-30:#D96C72;
+$knowit-red-20:#CE555F;
+$knowit-red-10:#F57E7E;
+//----END COLOR BASE
+
+
+
+$knowit-color-peach: #EAA794;
+
+$knowit-yellow: #CFB023;
+$knowit-color-yellow: #CFB023;
+
+//body
+$knowit-body-color:$knowit-grayscale-80;
+$knowit-body-bg-color:#fff;
+$knowit-text-lightgray:$knowit-grayscale-40;
+
+//links
+$knowit-link-color:$knowit-color-2166;
+$knowit-link-hover:$knowit-color-2380;
+
+//tabs
+$tab-semitransparent:$knowit-white-40;
+$tab-semitransparent-hover:$knowit-white-60;
+
+//borders
+$default-border-color:$knowit-grayscale-20;
+$darker-border-color:$knowit-grayscale-45;
+
+
+//site-header
+$top-navlink-color:$knowit-grayscale-80;
+$top-nav-bg-light:$knowit-grayscale-10;
+$top-nav-hover-color:$knowit-grayscale-10;
+$top-navlink-active-color:$knowit-green;
+
+//site-footer
+$footer-linkblock-bg-color:$knowit-purple-50;
+$footer-media-links-color:#525252;
+$footer-media-bg-color:$knowit-grayscale-80;
+
+//modal
+$knowit-modal-bg:$knowit-black-82;
+
+//buttons
+$button-default-text-color:$knowit-body-color;
+$button-default-bg-color:$knowit-grayscale-20;
+$button-red:#CE555F;
+
+//form elements
+$search-input-bg-color:$knowit-grayscale-10;
+$input-valid-color:$knowit-green;
+
+
+
+
+
+// Color classes
+// Greens
+.knowit-color-3292 { color: $knowit-color-3292 !important; }
+.knowit-color-3285 { color: $knowit-color-3285 !important; }
+.knowit-color-7464 { color: $knowit-color-7464 !important; }
+.knowit-color-9044 { color: $knowit-color-9044 !important; }
+
+// Purples
+.knowit-color-668  { color: $knowit-color-668 !important; }
+.knowit-color-2094 { color: $knowit-color-2094 !important; }
+.knowit-color-7444 { color: $knowit-color-7444 !important; }
+.knowit-color-9380 { color: $knowit-color-9380 !important; }
+
+// Blues
+.knowit-color-2380 { color: $knowit-color-2380 !important; }
+.knowit-color-2166 { color: $knowit-color-2166 !important; }
+.knowit-color-2155 { color: $knowit-color-2155 !important; }
+.knowit-color-9400 { color: $knowit-color-9400 !important; }
+
+// Yellows
+.knowit-color-7752 { color: $knowit-color-7752 !important; }
+.knowit-color-2003 { color: $knowit-color-2003 !important; }
+.knowit-color-0131 { color: $knowit-color-0131 !important; }
+.knowit-color-9020 { color: $knowit-color-9020 !important; }
+
+// Reds
+.knowit-color-7607 { color: $knowit-color-7607 !important; }
+.knowit-color-487  { color: $knowit-color-487 !important; }
+.knowit-color-489  { color: $knowit-color-489 !important; }
+.knowit-color-9244 { color: $knowit-color-9244 !important; }
+
+// Greys
+.knowit-color-gray-9 { color: $knowit-color-gray-9 !important; }
+.knowit-color-gray-5 { color: $knowit-color-gray-5 !important; }
+.knowit-color-gray-2 { color: $knowit-color-gray-2 !important; }
+.knowit-color-9080   { color: $knowit-color-9080 !important; }
+
+// Other
+.knowit-color-black { color: $knowit-color-black !important; }
+.knowit-color-white { color: $knowit-color-white !important; }
+
+
+// Background classes
+// Greens
+.knowit-bg-3292 { background-color: $knowit-color-3292 !important; }
+.knowit-bg-3285 { background-color: $knowit-color-3285 !important; }
+.knowit-bg-7464 { background-color: $knowit-color-7464 !important; }
+.knowit-bg-9044 { background-color: $knowit-color-9044 !important; }
+
+// Purples
+.knowit-bg-668  { background-color: $knowit-color-668 !important; }
+.knowit-bg-2094 { background-color: $knowit-color-2094 !important; }
+.knowit-bg-7444 { background-color: $knowit-color-7444 !important; }
+.knowit-bg-9380 { background-color: $knowit-color-9380 !important; }
+
+// Blues
+.knowit-bg-2380 { background-color: $knowit-color-2380 !important; }
+.knowit-bg-2166 { background-color: $knowit-color-2166 !important; }
+.knowit-bg-2155 { background-color: $knowit-color-2155 !important; }
+.knowit-bg-9400 { background-color: $knowit-color-9400 !important; }
+
+// Yellows
+.knowit-bg-7752 { background-color: $knowit-color-7752 !important; }
+.knowit-bg-2003 { background-color: $knowit-color-2003 !important; }
+.knowit-bg-0131 { background-color: $knowit-color-0131 !important; }
+.knowit-bg-9020 { background-color: $knowit-color-9020 !important; }
+
+// Reds
+.knowit-bg-7607 { background-color: $knowit-color-7607 !important; }
+.knowit-bg-487  { background-color: $knowit-color-487 !important; }
+.knowit-bg-489  { background-color: $knowit-color-489 !important; }
+.knowit-bg-9244 { background-color: $knowit-color-9244 !important; }
+
+// Greys
+.knowit-bg-gray-9 { background-color: $knowit-color-gray-9 !important; }
+.knowit-bg-gray-5 { background-color: $knowit-color-gray-5 !important; }
+.knowit-bg-gray-2 { background-color: $knowit-color-gray-2 !important; }
+.knowit-bg-9080   { background-color: $knowit-color-9080 !important; }
+.knowit-bg-9080-50   { background-color: $knowit-color-9080-50 !important; }
+
+// Other
+.knowit-bg-black { background-color: $knowit-color-black !important; }
+.knowit-bg-white { background-color: $knowit-color-white !important; }

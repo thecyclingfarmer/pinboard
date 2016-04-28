@@ -1,0 +1,105 @@
+.pinboard {
+
+  &_grid-sizer {
+    width:25%;
+  }
+
+  &_item {
+    float:left;
+    margin:rem-calc(15px 0);
+    width:25%;
+
+    h2 {
+      font-size: 20px;
+      margin:0;
+    }
+
+    &_content {
+      background:yellow;
+      padding:rem-calc(30px);
+      position: relative;
+
+      &_editorial {
+        width:100%;
+      }
+
+      /*COLORS*/
+      &.knowit-bg-3292,
+      &.knowit-bg-3285,
+      &.knowit-bg-668,
+      &.knowit-bg-2094,
+      &.knowit-bg-2380,
+      &.knowit-bg-2166,
+      &.knowit-bg-2155,
+      &.knowit-bg-7752,
+      &.knowit-bg-7607,
+      &.knowit-bg-gray-9,
+      &.knowit-bg-gray-5 {
+        color:#fff;
+      }
+    }
+
+    &_image {
+      height:215px;
+      margin: rem-calc(-30px -30px 30px -30px);
+      text-align: center;
+
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      .pinboard_item--two-columns & {
+        bottom: 0;
+        height: 100%;
+        padding: 40px 30px;
+        position: absolute;
+        right: 30px;
+        top: 0;
+        width: 45%;
+      }
+    }
+
+    /*Modifiers*/
+    &--two-columns {
+      width: 50%;
+
+      h2 {
+        font-size: rem-calc(40px);
+      }
+
+      .pinboard_item_content_editorial {
+        width:45%;
+      }
+    }
+
+    &--brushed {
+      h2 {
+        @extend %font-brand-brush;
+        font-size:rem-calc(40px);
+      }
+
+      &.pinboard_item--two-columns {
+        h2 {
+          font-size:rem-calc(70px);
+        }
+      }
+
+    }
+
+    &_style-selector {
+      background:rgba(255,255,255,0.6);
+      bottom:0;
+      display: none;
+      left:0;
+      padding:10px;
+      position: absolute;
+      width:100%;
+    }
+    &:hover {
+      .pinboard_item_style-selector {
+        display:block;
+      }
+    }
+  }
+}

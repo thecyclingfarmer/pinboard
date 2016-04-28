@@ -1,0 +1,73 @@
+// $font-brand: "FoundersGrotesk-regular", Helvetica, Arial, sans-serif;
+// $font-brand-light:"HelveticaNeueW02-45Ligh",Helvetica,Arial,sans-serif;
+// $font-brand-semibold:"HelveticaNeueW02-65Medi";
+// $font-brand-bold:"HelveticaNeueW02-75Bold",Helvetica,Arial,sans-serif;
+
+$font-brand: "Raleway", Helvetica, Arial, sans-serif;
+
+//Global fonts sizes.
+//OBS, declare variables in px.
+$knowit-body-fontsize:18px;
+$knowit-small-fontsize: 16px;
+
+//footer font sizes
+$footer-linkblock-heading-size:15px;
+$footer-linkblock-link-size:16px;
+
+$font-brush : "Brush Up", Helvetica, Arial, sans-serif;
+$font-brand-brush : $font-brush;
+
+.text-brush {
+  font-family: "Brush Up", Helvetica, Arial, sans-serif;
+
+}
+//font mixins
+@mixin font-brand-light() {
+  font-family: $font-brand;
+  font-weight:300;
+  font-style:normal;
+}
+@mixin font-brand-regular() {
+  font-family: $font-brand;
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin font-brand-semibold() {
+  font-family: $font-brand;
+  font-weight: 600;
+  font-style: normal;
+}
+@mixin font-brand-bold() {
+    font-family: $font-brand;
+    font-weight:700;
+    font-style:normal;
+}
+
+@mixin font-brand-brush() {
+    font-family: $font-brand-brush;
+    font-weight:normal;
+    font-style:normal;
+    letter-spacing: -0.02em;
+    line-height:1;
+    margin:rem-calc(20px 0);
+}
+
+%font-brand-light {
+  @include font-brand-light();
+}
+
+%font-brand-regular {
+  @include font-brand-regular();
+}
+
+%font-brand-semibold {
+  @include font-brand-semibold();
+}
+
+%font-brand-bold {
+  @include font-brand-bold();
+}
+
+%font-brand-brush {
+  @include font-brand-brush();
+}
